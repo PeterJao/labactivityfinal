@@ -1,6 +1,4 @@
 import "./Header.css";
-import { IoLogOutOutline } from "react-icons/io5";
-import { FaMagnifyingGlass } from "react-icons/fa6";
 
 function Header(props) {
   return (
@@ -18,17 +16,12 @@ function Header(props) {
           <li class="nav-item">
             <span class="nav-link">Support</span>
           </li>
-          <li class="search">
-            <FaMagnifyingGlass />
-          </li>
+          <li class="search"></li>
         </ul>
       </div>
 
       <div class="secondnav">
-        <p class="text">
-          Fast and Free Delivery
-          <IoLogOutOutline />
-        </p>
+        <p class="text">Fast and Free Delivery</p>
       </div>
     </nav>
   );
