@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header.js";
 import Body from "./Body.js";
 import Popular from "./popular.js";
+import popularItems from "./popularItems.js";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Body />
       <Popular />
+      <popularItems />
     </div>
   );
 }
