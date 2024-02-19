@@ -7,11 +7,13 @@ const productList = [
   {
     name: "Beats Studio Buds",
     price: "149.99",
-    img: "./beatsstudiopro.png",
+    img: "./beatsstudiobuds.png",
   },
   {
     name: "Beats Solo Wireless",
     price: "99.99",
-    img: "./beatsstudiopro.png",
+    img: "./beatswireless.png",
   },
 ];
+
+export default productList;

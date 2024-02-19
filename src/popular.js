@@ -1,4 +1,5 @@
 import "./popular.css";
+import { productList } from "./data.js";
 
 function Popular(props) {
   const isAvailable = props.isAvailable;
